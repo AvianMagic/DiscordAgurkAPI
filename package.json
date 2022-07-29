@@ -1,0 +1,31 @@
+{
+  "name": "agurkbot",
+  "version": "1.0.0",
+  "description": "Discord bot for AgurkAPI",
+  "main": "bot.js",
+  "scripts": {
+    "startl": "node deploy-commands.js; node .",
+    "start": "node deploy-commands.js && node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pbaekgaard/ProjectP2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pbaekgaard/ProjectP2/issues"
+  },
+  "homepage": "https://github.com/pbaekgaard/ProjectP2#readme",
+  "dependencies": {
+    "@discordjs/builders": "^0.12.0",
+    "@discordjs/rest": "^0.3.0",
+    "console-stamp": "^3.0.4",
+    "discord-api-types": "^0.29.0",
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "form-data": "^4.0.0",
+    "node-fetch": "^2.6.7"
+  }
+}
